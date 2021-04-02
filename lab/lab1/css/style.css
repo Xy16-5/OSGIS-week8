@@ -1,7 +1,7 @@
 body {
     padding: 0;
     overflow: hidden;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: colfax, helvetica, arial, sans-serif;
 }
 
 .map {
@@ -20,67 +20,25 @@ body {
     bottom: 0;
     overflow-y: auto;
     padding: 20px;
-    padding-bottom: 60px;
 }
 
-.item {
-    padding: 10px;
-    background-color: #eee;
-}
-
-.item:not(:last-child) {
+h1 {
     margin-bottom: 10px;
 }
 
-.item-heading {
-    font-size: 18px;
-    margin-top: 0;
-    font-weight: bold;
+h2 {
+    font-weight: normal;
+    color: #666;
+    margin-top: 10px,
 }
 
-.sort {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 340px;
-    background-color: #fff;
-    padding: 20px;
+.street-selected path {
+  -webkit-animation: active 5s ease-out;
+  -webkit-animation-iteration-count: infinite;
 }
 
-.sort-option {
-    margin-left: 10px;
-}
-
-.sort-option.selected {
-    border-bottom: 1px solid #ccc;
-}
-
-.sidebar nav.navbar-default {
-    border: 0;
-    border-radius: 0;
-    background-color: #fff;
-    border-bottom: 1px solid #eee;
-    margin: -14px -20px 20px;
-    padding: 10px 20px 15px;
-}
-
-.navbar-brand {
-    font-size: 14px;
-    font-weight: bold;
-}
-
-/* =============
-Media Queries
-============= */
-
-@media screen and (min-width: 480px) and (max-width: 800px) {
-    /*.item {
-        background-color: blue;
-    }*/
-}
-
-@media screen and (max-width: 479px) {
-    /*.item {
-        background-color: red;
-    }*/
+@-webkit-keyframes active {
+    0% {opacity: 1;}
+    50% {opacity: 1; stroke-width: 10;}
+    100% {opacity: 1;}
 }

@@ -8,12 +8,11 @@ frontend library. For this assignment, you do not need to make the style (color,
 the screens exactly.
 
 Below are four frontend frameworks to choose from. Pick whichever looks best to you.
-I suggest Bootstrap. It has the best documentation, fantastic examples, and wide adoption
-Additionally, I've used Bootstrap's naming conventions to describe the elements you should incorporate in your lab
+I *heavily* suggest Bootstrap. It has the best documentation, fantastic examples, and wide adoption.
+Additionally, this lab uses Bootstrap's naming conventions to describe the elements you should incorporate. It will be easier to follow if you stick with Bootstrap
 
 - [Bootstrap](http://getbootstrap.com)
 - [Material Design Lite](https://getmdl.io/)
-- [Assembly](https://mapbox.com/assembly/documentation/)
 - [Bulma](https://bulma.io/)
 
 ### Required Components
@@ -28,13 +27,13 @@ Your prototype must contain all three of the following components:
 
 Your prototype should contain your choice of five of the following components.
 
-- Table
-- Input Group
-- Button Group
-- Glyph Icon
-- Label
-- Alert
-- Tooltip
+- Table (Content > Tables)
+- Input Group (Forms > Input group)
+- Button Group (Components > Buttons && Forms > Input group > Button addons)
+- Icons (https://icons.getbootstrap.com/,  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">)
+- Floating labels (Forms > Floating labels)
+- Alert (Components > Alerts)
+- Tooltip (Components > Tooltips)
 
 ### Media Queries
 

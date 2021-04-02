@@ -5,6 +5,9 @@
 ## Class Outline
 
 ### Introduction
+- Leaflet plugins
+  - [Full list](https://leafletjs.com/plugins.html)
+  - [Leaflet Draw](https://leaflet.github.io/Leaflet.draw/docs/leaflet-draw-latest.html)
 - Frontend Frameworks
   - Components
     - Button groups
@@ -19,11 +22,10 @@
     - Tables
     - Forms
 
-### Frontend Frameworks
-- [Lab](lab/lab1)
 
 ## Homework Assignment
 
-- Complete [Lab](lab)
+- Complete [Lab1](lab/lab1)
+- Complete [Lab2](lab/lab2)
 - Complete [Final project proposal](assignment)
 

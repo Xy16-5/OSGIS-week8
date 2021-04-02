@@ -1,8 +1,8 @@
 # Final Project Proposal
 
-Your assignment this week is to write a detailed proposal for your final
-project. In proposing your final, try to address each of the following
-areas. Please produce at least a paragraph which addresses the topics below
+Your assignment this week is to write a proposal for your final project.
+In proposing your final, try to address each of the following areas.
+Please produce at least a paragraph which addresses the topics below
 
 ## Problem / Question
 
@@ -15,6 +15,9 @@ application speak to this problem/question?
 Geospatial applications are all about working with data. What datasets
 would you plan/like to use? If the data you'll be working with isn't
 already stored in a way that you can use, how will you be storing your data?
+If your data is too large to be conveniently used on the frontend, how will
+you work around it? A backend? Vector tiles? Chat with me ASAP if this is
+something you need help with!
 
 ## Technologies used
 
